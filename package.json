@@ -1,0 +1,32 @@
+{
+  "name": "@config-plugin/react-native-beacons-plugin",
+  "version": "0.0.1",
+  "description": "Config plugin to auto configure react-native-beacons-manager on prebuild",
+  "files": [
+    "app.plugin.js",
+    "plugin/build"
+  ],
+  "main": "app.plugin.js",
+  "scripts": {
+    "build": "expo-module build plugin",
+    "clean": "expo-module clean plugin",
+    "rebuild": "yarn clean && EXPO_NONINTERACTIVE=1 yarn build",
+    "lint": "expo-module lint plugin",
+    "test": "expo-module test plugin",
+    "prepare": "yarn rebuild",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "devDependencies": {
+    "expo-module-scripts": "^2.0.0"
+  },
+  "dependencies": {
+    "@expo/config-plugins": "^4.0.18"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baspellis/react-native-beacons-manager-config-plugin/issues"
+  },
+  "homepage": "https://github.com/baspellis/react-native-beacons-manager-config-plugine#readme",
+  "private": false
+}
