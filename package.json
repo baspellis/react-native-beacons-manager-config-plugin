@@ -1,5 +1,5 @@
 {
-  "name": "@config-plugin/react-native-beacons-plugin",
+  "name": "@config-plugin/react-native-beacons-manager",
   "version": "0.0.1",
   "description": "Config plugin to auto configure react-native-beacons-manager on prebuild",
   "files": [
