@@ -1,6 +1,6 @@
 {
-  "name": "@config-plugins/react-native-beacons-manager",
-  "version": "0.0.1",
+  "name": "react-native-beacons-manager-config-plugin",
+  "version": "0.0.2",
   "description": "Config plugin to auto configure react-native-beacons-manager on prebuild",
   "files": [
     "app.plugin.js",
@@ -13,7 +13,6 @@
     "rebuild": "yarn clean && EXPO_NONINTERACTIVE=1 yarn build",
     "lint": "expo-module lint plugin",
     "test": "expo-module test plugin",
-    "prepare": "yarn rebuild",
     "prepublishOnly": "expo-module prepublishOnly",
     "expo-module": "expo-module"
   },
