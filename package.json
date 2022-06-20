@@ -1,6 +1,6 @@
 {
   "name": "react-native-beacons-manager-config-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Config plugin to auto configure react-native-beacons-manager on prebuild",
   "files": [
     "app.plugin.js",
